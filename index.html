@@ -1,74 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Montserrat', Arial, sans-serif;
-      background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
-      color: #222;
+      padding: 0;
+      box-sizing: border-box;
     }
-    .container {
-      max-width: 800px;
-      margin: 80px auto;
-      padding: 40px;
-      background: #fff;
-      border-radius: 18px;
-      box-shadow: 0 8px 32px rgba(60,60,120,0.08);
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+      background: black;
+      overflow: hidden;
+    }
+
+    #stars {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255, 255, 255, 0.2);
+      padding: 60px;
+      border-radius: 24px;
+      color: white;
       text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+      z-index: 1;
+      width: 95%;
+      max-width: 600px;
     }
-    h1 {
-      font-size: 2.8em;
-      margin-bottom: 0.3em;
-      color: #3b82f6;
+
+    .card h1 {
+      font-size: 2.4em;
+      margin-bottom: 0.5em;
+      color: #3b82f6; /* Azul */
     }
-    p {
-      font-size: 1.3em;
+
+    .card p {
+      font-size: 1.2em;
       margin-bottom: 1.5em;
     }
-    .cta {
+
+    .card a {
       display: inline-block;
-      padding: 14px 32px;
+      padding: 14px 28px;
       background: #3b82f6;
-      color: #fff;
+      color: white;
       border-radius: 30px;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1.1em;
       transition: background 0.2s;
+      font-size: 1em;
     }
-    .cta:hover {
+
+    .card a:hover {
       background: #2563eb;
-    }
-    .social {
-      margin-top: 2em;
-    }
-    .social a {
-      margin: 0 12px;
-      color: #3b82f6;
-      font-size: 1.5em;
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .social a:hover {
-      color: #2563eb;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Hello, I'm <span style="color:#2563eb;">Your Name</span></h1>
-    <p>Welcome to my portfolio! I'm a passionate developer/designer who loves building creative and impactful projects. Explore my work and connect with me below.</p>
-    <a href="#projects" class="cta">See My Projects</a>
-    <div class="social">
-      <a href="https://github.com/yourusername" title="GitHub">🐙</a>
-      <a href="mailto:your@email.com" title="Email">✉️</a>
-      <!-- Add more social links as needed -->
-    </div>
+  <canvas id="stars"></canvas>
+
+  <div class="card">
+    <h1>Hello, I'm Alex!</h1>
+    <p>Welcome to my portfolio. Here you will find my projects and ways to get in touch.</p>
+    <a href="#overview">Let's Go!</a>
   </div>
+
+  <script>
+    const canvas = document.getElementById('stars');
+    const ctx = canvas.getContext('2d');
+
+    let width = window.innerWidth;
+    let height = window.innerHeight;
+    canvas.width = width;
+    canvas.height = height;
+
+    const stars = [];
+    const numStars = 300;
+
+    for (let i = 0; i < numStars; i++) {
+      stars.push({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        z: Math.random() * width
+      });
+    }
+
+    function animateStars() {
+      ctx.fillStyle = 'black';
+      ctx.fillRect(0, 0, width, height);
+
+      for (let i = 0; i < numStars; i++) {
+        let star = stars[i];
+
+        star.z -= 2;
+        if (star.z <= 0) {
+          star.z = width;
+          star.x = Math.random() * width;
+          star.y = Math.random() * height;
+        }
+
+        let k = 128.0 / star.z;
+        let px = (star.x - width / 2) * k + width / 2;
+        let py = (star.y - height / 2) * k + height / 2;
+
+        if (px >= 0 && px <= width && py >= 0 && py <= height) {
+          let size = (1 - star.z / width) * 3;
+          ctx.fillStyle = 'white'; 
+          ctx.beginPath();
+          ctx.arc(px, py, size, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+
+      requestAnimationFrame(animateStars);
+    }
+
+    animateStars();
+
+    window.addEventListener('resize', () => {
+      width = window.innerWidth;
+      height = window.innerHeight;
+      canvas.width = width;
+      canvas.height = height;
+    });
+  </script>
 </body>
 </html>
