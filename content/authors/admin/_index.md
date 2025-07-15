@@ -79,29 +79,41 @@ education:
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://github.com/alexgaarciia/Generative_Agent_Based_Modeling'
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Exchange Program
+    institution: Concordia University
+    date_start: 2023-09-01
+    date_end: 2024-05-01
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Ranked #1 university under 50 years in North America and #1 in Canada for Software Engineering research.
+      - Exchange year at Gina Cody School of Engineering and Computer Science under the "Santander Estudios" scholarship (Awarded one of the 110 scholarships offered by Banco Santander to study abroad for one academic year, receiving one of the highest-funded grants).
+work:
+  - position: LLM Engineer Intern
+    company_name: Repsol
+    company_url: ''
+    company_logo: ''
+    date_start: 2025-02-28
+    date_end: ''
+    summary: |
+      - Helped pioneer internal adoption of AI as one of the company’s first LLM engineers, designing prompt strategies and deploying LLM agents in production environments.
+  - position: IT&D Business Partner Intern
+    company_name: Repsol 
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-09-01
+    date_end: 2025-02-28
+    summary: |
+      - Assisted in coordinating project milestones and deliverables while tracking and reporting departmental costs, supporting effective budget management and completion of objectives on time.
+  - position: AI Research Engineer
+    company_name: Universidad Carlos III de Madrid
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-09-01
+    date_end: ''
+    summary: |
+      Researcher at the Telematic Engineering Department under the supervision of Dr. José Alberto Hernández Gutiérrez:
+      - Built GAN and CTGAN models to generate synthetic network traffic with 80%+ similarity to real data.
+      - Benchmarked prompt strategies across 5 LLMs, increasing problem-solving accuracy by up to 30%.
+      - Designed a reinforcement learning algorithm for network routing, keeping latency spikes below 14.8%.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
