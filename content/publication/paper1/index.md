@@ -1,23 +1,27 @@
 ---
-title: 'Paper 1'
+title: 'Reinforcement-Learning based routing for packet-optical networks with hybrid telemetry'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Robert Ford
+  - A. L. García Navarro
+  - Nataliia Koneva 
+  - Alfonso Sánchez-Macián
+  - José Alberto Hernández
+  - Óscar González de Dios
+  - J. M. Rivas-Moscoso
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2024-06-18T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-06-18T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,13 +29,12 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: The 28th International Conference on Optical Network Design and Modelling (ONDM 2024)
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This article provides a methodology and open-source implementation of Reinforcement Learning algorithms for finding optimal routes in a packet-optical network scenario. The algorithm uses measurements provided by the physical layer (pre-FEC bit error rate and propagation delay) and the link layer (link load) to configure a set of latency-based rewards and penalties based on such measurements. Then, the algorithm executes Q-learning based on this set of rewards for finding the optimal routing strategies. It is further shown that the algorithm dynamically adapts to changing network conditions by re-calculating optimal policies upon either link load changes or link degradation as measured by pre-FEC BER.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 # Display this page in the Featured widget?
 featured: true
@@ -41,8 +44,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://arxiv.org/abs/2406.12602
+url_code: 'https://github.com/alexgaarciia/PacketOpticalLatencyRL'
 url_dataset: ''
 url_poster: ''
 url_project: ''

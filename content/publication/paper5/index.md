@@ -1,31 +1,31 @@
 ---
-title: "Paper 3"
+title: "On the Use of Large Language Models at Solving Math Problems: A Comparison Between GPT-4, LlaMA-2 and Gemini"
 authors:
-- admin
-date: "2019-04-07T00:00:00Z"
+- Alejandro L. García Navarro
+- Nataliia Koneva
+- José Alberto Hernández
+- Alfonso Sánchez-Macián
+date: "2025-03-04T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-03-04T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["in press"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "International Journal of Interactive Multimedia and Artificial Intelligence"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+abstract: In November 2022, ChatGPT v3.5 was announced to the world. Since then, Generative Artificial Intelligence (GAI) has appeared in the news almost daily, showing impressive capabilities at solving multiple tasks that have surprised the research community and the world in general. Indeed the number of tasks that ChatGPT and other Large Language Models (LLMs) can do are unimaginable, especially when dealing with natural text. Text generation, summarisation, translation, and transformation (into poems, songs, or other styles) are some of its strengths. However, when it comes to reasoning or mathematical calculations, ChatGPT finds difficulties. In this work, we compare different flavors of ChatGPT (v3.5, v4, and Wolfram GPT) at solving 20 mathematical tasks, from high school and first-year engineering courses. We show that GPT-4 is far more powerful than ChatGPT-3.5, and further that the use of Wolfram GPT can even slightly improve the results obtained with GPT-4 at these mathematical tasks.
 
 featured: true
 
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://www.ijimai.org/journal/sites/default/files/2025-03/ip2025_03_001.pdf
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''

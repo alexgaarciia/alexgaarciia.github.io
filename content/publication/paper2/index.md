@@ -1,30 +1,30 @@
 ---
-title: "Paper 2"
+title: "A Comprehensive Guide to Combining R and Python code for Data Science, Machine Learning and Reinforcement Learning"
 authors:
-- admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- Alejandro L. García Navarro
+- Nataliia Koneva
+- Alfonso Sánchez-Macián
+- José Alberto Hernández
+
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
+date: "2024-07-19T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-07-19T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["preprint"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "arXiv"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+abstract: Python has gained widespread popularity in the fields of machine learning, artificial intelligence, and data engineering due to its effectiveness and extensive libraries. R, on its side, remains a dominant language for statistical analysis and visualization. However, certain libraries have become outdated, limiting their functionality and performance. Users can use Python's advanced machine learning and AI capabilities alongside R's robust statistical packages by combining these two programming languages. This paper explores using R's reticulate package to call Python from R, providing practical examples and highlighting scenarios where this integration enhances productivity and analytical capabilities. With a few hello-world code snippets, we demonstrate how to run Python's scikit-learn, pytorch and OpenAI gym libraries for building Machine Learning, Deep Learning, and Reinforcement Learning projects easily.
 
 # tags:
 # - Source Themes
@@ -33,8 +33,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://arxiv.org/abs/2407.14695
+url_code: 'https://github.com/alexgaarciia/ReticulateR-Guide'
 url_dataset: ''
 url_poster: ''
 url_project: ''
