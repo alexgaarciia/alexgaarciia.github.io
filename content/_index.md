@@ -41,7 +41,7 @@ sections:
   #   design:
   #     columns: '1'
   - block: collection
-    id: news
+    id: papers
     content:
       title: 🗞️ Mildly Interesting Updates 
       filters:
@@ -52,7 +52,6 @@ sections:
       view: article-grid
       columns: 2
   - block: collection
-    id: papers
     content:
       title: 📚 My Contribution to the Paper Crisis
       text: ""
