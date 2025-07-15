@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Alejandro Leonardo García Navarro
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Alejandro Leonardo García Navarro
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Alejandro Leonardo
+last_name: García Navarro
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ☺️
 
 # Is this the primary user of the site?
 superuser: true
@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:al.garcia636@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
