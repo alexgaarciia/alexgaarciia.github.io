@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: 'Paper 1'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -41,21 +41,21 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: http://arxiv.org/pdf/1512.04133v1
 url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: true
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -73,7 +73,7 @@ projects:
 slides: example
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
@@ -81,4 +81,4 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the _Slides_ button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
