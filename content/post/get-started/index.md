@@ -1,5 +1,5 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
+title: 🎉 News 5
 summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
 date: 2023-10-27
 
@@ -12,10 +12,10 @@ authors:
   - admin
   - Ted
 
-tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+# tags:
+#   - Academic
+#   - Hugo Blox
+#   - Markdown
 ---
 
 Welcome 👋
