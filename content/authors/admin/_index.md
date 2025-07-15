@@ -43,9 +43,9 @@ profiles:
   #   url: https://orcid.org/0009-0004-6571-0297
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Agentic AI
+  - AI for Medicine
+  - Context Engineering
 
 education:
   # - area: PhD Artificial Intelligence
