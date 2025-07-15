@@ -39,8 +39,8 @@ profiles:
     url: https://www.linkedin.com/in/alexgaarciia/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=k_N0bDQAAAAJ&hl=fr
-  - icon: academicons/orcid
-    url: https://orcid.org/0009-0004-6571-0297
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0009-0004-6571-0297
 
 interests:
   - Artificial Intelligence
