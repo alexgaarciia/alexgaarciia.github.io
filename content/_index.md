@@ -41,17 +41,18 @@ sections:
   #   design:
   #     columns: '1'
   - block: collection
-    id: papers
+    id: news
     content:
       title: 🗞️ Mildly Interesting Updates 
       filters:
         folders:
-          - publication
-        featured_only: true
+          - post
+        featured_only: false
     design:
       view: article-grid
       columns: 2
   - block: collection
+    id: papers
     content:
       title: 📚 My Contribution to the Paper Crisis
       text: ""
