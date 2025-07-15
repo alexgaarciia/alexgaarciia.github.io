@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alejandro Leonardo García Navarro
+title: Alejandro García
 
 # Name pronunciation (optional)
 # name_pronunciation: Alejandro Leonardo García Navarro
@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: AI Research Engineer @UC3M, LLM Engineer @Repsol
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: BEng in Data Science and Engineering
+    #url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -33,18 +33,14 @@ profiles:
   - icon: at-symbol
     url: 'mailto:al.garcia636@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/alexgaarciia
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/alexgaarciia/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=k_N0bDQAAAAJ&hl=fr
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0004-6571-0297
 
 interests:
   - Artificial Intelligence
@@ -52,37 +48,37 @@ interests:
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  # - area: PhD Artificial Intelligence
+  #   institution: Stanford University
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
+  # - area: MEng Artificial Intelligence
+  #   institution: Massachusetts Institute of Technology
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BEng Data Science and Engineering
+    institution: Universidad Carlos III de Madrid
+    date_start: 2021-09-01
+    date_end: 2025-07-08
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Final Degree Project (10/10): "Generative Agent-Based Models for Simulated Interactions: A Framework for Experiment Design". Published research project and interactive platform designed to democratize agentic AI. Enables non-technical users to simulate interactions between agents using Generative Agent-Based Modeling.
+      - Awarded 3 government scholarships recognizing academic performance.
+      - Relevant Coursework: Databases, Data protection & cybersecurity, Machine Learning, Neural Networks, Computer Vision, Web Analytics, Artificial Intelligence.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://github.com/alexgaarciia/Generative_Agent_Based_Modeling'
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
