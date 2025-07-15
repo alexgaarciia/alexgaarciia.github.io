@@ -52,11 +52,8 @@ sections:
     id: papers
     content:
       title: 📚 My Contribution to the Paper Crisis
+      page_type: publication
       text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
     design:
       view: citation
   # - block: collection
