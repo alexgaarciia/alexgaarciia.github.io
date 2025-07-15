@@ -6,8 +6,8 @@ title: Alejandro Leonardo García Navarro
 # name_pronunciation: Alejandro Leonardo García Navarro
 
 # Full name (for SEO)
-first_name: Alejandro Leonardo
-last_name: García Navarro
+first_name: Alejandro 
+last_name: García
 
 # Status emoji
 status:
