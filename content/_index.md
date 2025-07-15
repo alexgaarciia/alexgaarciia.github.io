@@ -24,9 +24,9 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: lotus_background.jpg
           filters:
-            brightness: 1.0
+            opacity: 0.2
           size: cover
           position: center
           parallax: false
