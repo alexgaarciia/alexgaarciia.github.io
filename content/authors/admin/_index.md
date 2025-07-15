@@ -79,6 +79,7 @@ education:
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://github.com/alexgaarciia/Generative_Agent_Based_Modeling'
+
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -102,6 +103,17 @@ work:
       - Migrated infrastructure to a new data center
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: AI Research Engineer
+    company_name: Universidad Carlos III de Madrid
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2016-01-01
+    summary: |
+      Researcher at the Telematic Engineering Department under the supervision of Dr. José Alberto Hernández Gutiérrez:
+      - Built GAN and CTGAN models to generate synthetic network traffic with 80%+ similarity to real data.
+      - Benchmarked prompt strategies across 5 LLMs, increasing problem-solving accuracy by up to 30%.
+      - Designed a reinforcement learning algorithm for network routing, keeping latency spikes below 14.8%.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
