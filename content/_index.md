@@ -25,8 +25,6 @@ sections:
         image:
           # Add your image background to `assets/media/`.
           filename: lotus_background.jpg
-          filters:
-            opacity: 0.2
           size: cover
           position: center
           parallax: false
