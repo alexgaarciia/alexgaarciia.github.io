@@ -3,8 +3,10 @@
 hugo server
 ```
 
-## Before pushing any changes
+## For production-ready deployment
+1. Run this command:
 ```
 hugo --gc --minify 
-# then push
 ```
+
+2. Then push changes
