@@ -73,9 +73,8 @@ education:
     date_start: 2021-09-01
     date_end: 2025-07-08
     summary: |
-      - Final Degree Project (10/10): "Generative Agent-Based Models for Simulated Interactions: A Framework for Experiment Design". Published research project and interactive platform designed to democratize agentic AI. Enables non-technical users to simulate interactions between agents using Generative Agent-Based Modeling.
-      - Awarded 3 government scholarships recognizing academic performance.
-      - Relevant Coursework: Databases, Data protection & cybersecurity, Machine Learning, Neural Networks, Computer Vision, Web Analytics, Artificial Intelligence.
+      - Bachelor Thesis: "Generative Agent-Based Models for Simulated Interactions: A Framework for Experiment Design" (Grade 10/10, nominated for honors)
+      - Awarded 3 government scholarships recognizing academic performance
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://github.com/alexgaarciia/Generative_Agent_Based_Modeling'
@@ -84,8 +83,8 @@ education:
     date_start: 2023-09-01
     date_end: 2024-05-01
     summary: |
-      - Ranked #1 university under 50 years in North America and #1 in Canada for Software Engineering research.
-      - Exchange year at Gina Cody School of Engineering and Computer Science under the "Santander Estudios" scholarship (Awarded one of the 110 scholarships offered by Banco Santander to study abroad for one academic year, receiving one of the highest-funded grants).
+      - Exchange year at Gina Cody School of Engineering and Computer Science
+      - Santander Estudios Scholar, awarded 1 of 22 highest-tier grants from 110 total scholarships
 work:
   - position: LLM Engineer Intern
     company_name: Repsol
@@ -94,7 +93,7 @@ work:
     date_start: 2025-02-28
     date_end: ''
     summary: |
-      - Helped pioneer internal adoption of AI as one of the company’s first LLM engineers, designing prompt strategies and deploying LLM agents in production environments.
+      - Helped pioneer internal adoption of AI as one of the company’s first LLM engineers, designing prompt strategies and deploying LLM agents in production environments
   - position: IT&D Business Partner Intern
     company_name: Repsol 
     company_url: ''
@@ -102,7 +101,7 @@ work:
     date_start: 2024-09-01
     date_end: 2025-02-28
     summary: |
-      - Assisted in coordinating project milestones and deliverables while tracking and reporting departmental costs, supporting effective budget management and completion of objectives on time.
+      - Assisted in coordinating project milestones and deliverables while tracking and reporting departmental costs, supporting effective budget management and completion of objectives on time
   - position: AI Research Engineer
     company_name: Universidad Carlos III de Madrid
     company_url: ''
@@ -110,10 +109,10 @@ work:
     date_start: 2023-09-01
     date_end: ''
     summary: |
-      Researcher at the Telematic Engineering Department under the supervision of Dr. José Alberto Hernández Gutiérrez:
-      - Built GAN and CTGAN models to generate synthetic network traffic with 80%+ similarity to real data.
-      - Benchmarked prompt strategies across 5 LLMs, increasing problem-solving accuracy by up to 30%.
-      - Designed a reinforcement learning algorithm for network routing, keeping latency spikes below 14.8%.
+      Researcher at the Telematic Engineering Department under the supervision of [Dr. José Alberto Hernández Gutiérrez](https://www.it.uc3m.es/jahgutie/index.html):
+      - Built GAN and CTGAN models to generate synthetic network traffic with 80%+ similarity to real data
+      - Benchmarked prompt strategies across 5 LLMs, increasing problem-solving accuracy by up to 30%
+      - Designed a reinforcement learning algorithm for network routing, keeping latency spikes below 14.8%
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -191,4 +190,10 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hey, I'm Alex, nice to see you're reading this! I'm passionate about artificial intelligence and its applications in health, but my curiosity sometimes diverges way too much from reality and often drifts into intersections with quantum computing.
+
+I recently graduated from Universidad Carlos III de Madrid with a BEng in Data Science and Engineering, and I am a prospective MSc student in Machine Learning for Health. My background is in AI, data science, and (most recently) cloud technologies, and I've worked both as a researcher and in industry—as one of the first LLM engineers at my company, helping to introduce agentic workflows.
+
+I've worked on (very) random projects, ranging from developing RL algorithms for network source optimization to LLM-powered email automation. I enjoy building solutions that bridge technical innovation and real-world needs, especially if I can make this technology accessible to as many people as possible!
+
+Beyond tech, I love running, climbing, yoga, and learning languages, but my most recent hobby is learning piano. I'm always curious to learn new things, tackle interesting challenges, and contribute to the scientific community.

@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: lotus_background.jpg
+          filename: what.jpg
           size: cover
           position: center
           parallax: false
