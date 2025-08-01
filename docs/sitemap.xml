@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://alexgaarciia.github.io/post/</loc>
+    <lastmod>2025-07-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://alexgaarciia.github.io/post/news4/</loc>
+    <lastmod>2025-07-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://alexgaarciia.github.io/publication/paper7/</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -34,6 +42,10 @@
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://alexgaarciia.github.io/post/news2/</loc>
+    <lastmod>2024-12-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://alexgaarciia.github.io/publication/paper4/</loc>
     <lastmod>2024-11-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -54,12 +66,8 @@
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://alexgaarciia.github.io/post/get-started/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://alexgaarciia.github.io/post/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://alexgaarciia.github.io/post/news1/</loc>
+    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://alexgaarciia.github.io/tags/hugo/</loc>
@@ -94,24 +102,12 @@
     <lastmod>2023-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://alexgaarciia.github.io/post/second-brain/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://alexgaarciia.github.io/post/data-visualization/</loc>
+    <loc>https://alexgaarciia.github.io/post/news3/</loc>
     <lastmod>2023-10-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://alexgaarciia.github.io/post/teach-courses/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://alexgaarciia.github.io/experience/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://alexgaarciia.github.io/post/project-management/</loc>
-    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://alexgaarciia.github.io/</loc>
