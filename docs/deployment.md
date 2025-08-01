@@ -1,12 +1,12 @@
 ## For local deployment
 ```
-hugo server
+hugo server -D
 ```
 
 ## For production-ready deployment
 1. Run this command:
 ```
-hugo --gc --minify 
+hugo -d docs
 ```
 
 2. Then push changes

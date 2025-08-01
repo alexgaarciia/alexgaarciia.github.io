@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog | Alejandro García</title>
+    <link>https://alexgaarciia.github.io/post/</link>
+      <atom:link href="https://alexgaarciia.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexgaarciia.github.io/media/icon_hu7729264130191091259.png</url>
+      <title>Blog</title>
+      <link>https://alexgaarciia.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Officially Graduated! Wrapping Up My Bachelor&#39;s Journey</title>
+      <link>https://alexgaarciia.github.io/post/news4/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://alexgaarciia.github.io/post/news4/</guid>
+      <description>&lt;p&gt;I’m thrilled to share a personal milestone: on July 8th, I successfully defended my Bachelor’s thesis, receiving the highest possible grade (10/10) and being nominated for honours!&lt;/p&gt;
+&lt;p&gt;The increasing presence of AI in our daily lives made me question how truly accessible these technologies are, and what we can do to open them up to everyone, not just those with technical expertise.&lt;/p&gt;
+&lt;h3 id=&#34;tldr&#34;&gt;TL;DR&lt;/h3&gt;
+&lt;p&gt;My thesis, titled “Generative Agent-Based Models for Simulated Interactions: A Framework for Experiment Design”, aimed at democratizing access to Generative Agent-Based Modeling (GABM) and generative agents in two key steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Identifying the accessibility challenges and opportunities of GABM in scientific research (published in a dedicated paper)&lt;/li&gt;
+&lt;li&gt;Building an open-source, user-friendly platform that enables anyone, regardless of technical background, to design, simulate, and analyze generative agents&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To bring this to life, I built the platform using Streamlit and Concordia, an agent modeling library from Google DeepMind. Users can choose an LLM, create agents, design scenarios, run experiments in three modes — all agents, selected agents, or the most similar/different ones — and visualize results.&lt;/p&gt;
+&lt;h3 id=&#34;links-to-paper-and-code&#34;&gt;Links to paper and code&lt;/h3&gt;
+&lt;p&gt;📄 &lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/2411.07038&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Designing Reliable Experiments with Generative Agent-Based Modeling: A Comprehensive Guide Using Concordia by Google DeepMind&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;💻 &lt;strong&gt;Code repository&lt;/strong&gt;: &lt;a href=&#34;https://github.com/alexgaarciia/Generative_Agent_Based_Modeling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generative_Agent_Based_Modeling&lt;/a&gt; on GitHub&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Santa Came Early: Another Paper Accepted!</title>
+      <link>https://alexgaarciia.github.io/post/news2/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://alexgaarciia.github.io/post/news2/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to share that our latest research paper — accepted on December 24th — will be published in the International Journal of Interactive Multimedia and Artificial Intelligence (IJIMAI).&lt;/p&gt;
+&lt;p&gt;This work explores how different Large Language Models (LLMs), including GPT-4, LLaMA-2, and Wolfram-integrated versions, perform when solving math problems typically found in high school and early engineering courses.&lt;/p&gt;
+&lt;h3 id=&#34;tldr&#34;&gt;TL;DR&lt;/h3&gt;
+&lt;p&gt;In this study, we benchmarked several LLMs on 20 mathematical problems, ranging from algebra to calculus, and compared their accuracy, reasoning steps, and overall reliability. We found that GPT-4 significantly outperforms GPT-3.5, especially in structured tasks, and that the integration of external tools like Wolfram slightly improves performance even further.&lt;/p&gt;
+&lt;p&gt;This work provides insights into how prompting strategies and tool-augmented LLMs can impact their ability to handle formal mathematical reasoning — a crucial step toward trustworthy AI in STEM education and applications.&lt;/p&gt;
+&lt;h3 id=&#34;link-to-paper&#34;&gt;Link to paper&lt;/h3&gt;
+&lt;p&gt;📄 &lt;a href=&#34;https://www.ijimai.org/journal/sites/default/files/2025-03/ip2025_03_001.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;On the Use of Large Language Models at Solving Math Problems: A Comparison Between GPT-4, LlaMA-2 and Gemini&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>We’re Heading to ONDM 2024!</title>
+      <link>https://alexgaarciia.github.io/post/news1/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://alexgaarciia.github.io/post/news1/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to share that my first research paper — where I am a first author — has been accepted for presentation at the 2024 International Conference on Optical Network Design and Modeling (ONDM).&lt;/p&gt;
+&lt;p&gt;The paper introduces a reinforcement learning approach for routing in packet-optical networks using hybrid telemetry metrics.&lt;/p&gt;
+&lt;h3 id=&#34;tldr&#34;&gt;TL;DR&lt;/h3&gt;
+&lt;p&gt;In this work, we present a reinforcement learning-based approach to optimize routing in packet-optical networks. The algorithm learns to select the best paths by dynamically adapting to real-time measurements collected from both the optical and packet layers, such as pre-FEC bit error rate, propagation delay, and link load.&lt;/p&gt;
+&lt;p&gt;By combining these metrics into a latency-based reward system, our Q-learning agent can make routing decisions that respond to current network conditions, even when those conditions degrade. We evaluate the algorithm on two topologies, a small 8-node setup and the Tokyo Metropolitan Area Network, showing how it adapts routes based on changes in link quality.&lt;/p&gt;
+&lt;h3 id=&#34;links-to-paper-and-code&#34;&gt;Links to paper and code&lt;/h3&gt;
+&lt;p&gt;You can find both the paper and the code open to the research community:&lt;/p&gt;
+&lt;p&gt;📄 &lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/2406.12602&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reinforcement-Learning based routing for packet-optical networks with hybrid telemetry&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;💻 &lt;strong&gt;Code repository&lt;/strong&gt;: &lt;a href=&#34;https://github.com/alexgaarciia/PacketOpticalLatencyRL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PacketOpticalLatencyRL&lt;/a&gt; on GitHub&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From GANs to the Leaning Tower: Our Paper Goes to ONDM 2025</title>
+      <link>https://alexgaarciia.github.io/post/news3/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://alexgaarciia.github.io/post/news3/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to share that our new research paper has been accepted for presentation at the 2025 International Conference on Optical Network Design and Modeling (ONDM), held this year in Pisa.&lt;/p&gt;
+&lt;p&gt;This work explores the use of Conditional Tabular GANs (CTGANs) to generate synthetic traffic matrices for wide area networks, enabling more flexible and realistic simulation environments in network research.&lt;/p&gt;
+&lt;h3 id=&#34;tldr&#34;&gt;TL;DR&lt;/h3&gt;
+&lt;p&gt;In this work, we investigate whether synthetic traffic data — generated using GAN-based models — can be used as a reliable substitute for real network measurements in large-scale simulations. We compare a custom-built GAN and an off-the-shelf CTGAN from the SDV library, both trained on traffic matrices from the Abilene topology, rescaled to 2025 demand levels.&lt;/p&gt;
+&lt;p&gt;We evaluate the synthetic data on statistical similarity metrics (achieving over 80% quality scores) and test its realism by analyzing link load behavior in simulated topologies. While both models produce high-quality results, CTGANs outperform in preserving statistical structure and generating more balanced traffic.&lt;/p&gt;
+&lt;h3 id=&#34;links-to-paper-and-code&#34;&gt;Links to paper and code&lt;/h3&gt;
+&lt;p&gt;You can find both the paper and the code open to the research community:&lt;/p&gt;
+&lt;p&gt;📄 &lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://ieeexplore.ieee.org/document/11029340&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CTGANs for Generating Synthetic Traffic Matrices in Wide Area Networks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;💻 &lt;strong&gt;Code repository&lt;/strong&gt;: &lt;a href=&#34;https://github.com/alexgaarciia/SyntheticTrafficRouting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SyntheticTrafficRouting&lt;/a&gt; on GitHub&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
