@@ -68,6 +68,10 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: MSc Machine Learning for Health
+    institution: Universidad Carlos III de Madrid
+    date_start: 2025-09-01
+    date_end: ''
   - area: BEng Data Science and Engineering
     institution: Universidad Carlos III de Madrid
     date_start: 2021-09-01
@@ -91,7 +95,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2025-02-28
-    date_end: ''
+    date_end: 2025-09-01
     summary: |
       - Helped pioneer internal adoption of AI as one of the company’s first LLM engineers, designing prompt strategies and deploying LLM agents in production environments
   - position: IT&D Business Partner Intern
@@ -107,7 +111,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2023-09-01
-    date_end: ''
+    date_end: 2025-08-31
     summary: |
       Researcher at the Telematic Engineering Department under the supervision of [Dr. José Alberto Hernández Gutiérrez](https://www.it.uc3m.es/jahgutie/index.html):
       - Built GAN and CTGAN models to generate synthetic network traffic with 80%+ similarity to real data
