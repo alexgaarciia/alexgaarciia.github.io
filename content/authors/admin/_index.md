@@ -165,6 +165,11 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Comunidad de Madrid Scholarship for Tuition Support
+    date: '2025-07-09'
+    awarder: Comunidad de Madrid
+    summary: |
+      Merit-based financial aid awarded by the Comunidad de Madrid.
   - title: Santander Estudios Scholarship
     date: '2023-05-01'
     awarder: Banco Santander
