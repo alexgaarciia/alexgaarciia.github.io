@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: AI Research Engineer @UC3M, LLM Engineer @Repsol
+role: AI Research Engineer @UC3M
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: BEng in Data Science and Engineering
+  - name: MSc Machine Learning for Health @UC3M
     #url: https://openai.com/
 
 # Social network links
@@ -187,7 +187,7 @@ awards:
 
 Hey, I'm Alex, nice to see you're reading this! I'm passionate about artificial intelligence and its applications in health, but my curiosity sometimes diverges way too much from reality and often drifts into intersections with quantum computing.
 
-I recently graduated from Universidad Carlos III de Madrid with a BEng in Data Science and Engineering, and I am a prospective MSc student in Machine Learning for Health. My background is in AI, data science, and (most recently) cloud technologies, and I've worked both as a researcher and in industry—as one of the first LLM engineers at my company, helping to introduce agentic workflows.
+I recently graduated from Universidad Carlos III de Madrid with a BEng in Data Science and Engineering, and I am a MSc student in Machine Learning for Health. My background is in AI, data science, and (most recently) cloud technologies, and I've worked both as a researcher and in industry—as one of the first LLM engineers at my company, helping to introduce agentic workflows.
 
 I've worked on (very) random projects, ranging from developing RL algorithms for network source optimization to LLM-powered email automation. I enjoy building solutions that bridge technical innovation and real-world needs, especially if I can make this technology accessible to as many people as possible!
 
