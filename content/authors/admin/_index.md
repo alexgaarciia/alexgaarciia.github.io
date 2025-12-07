@@ -94,6 +94,15 @@ education:
       - Exchange year at Gina Cody School of Engineering and Computer Science
       - Santander Estudios Scholar, awarded 1 of 22 highest-tier grants from 110 total scholarships
 work:
+  - position: Research Assistant 
+    company_name: Universidad Carlos III de Madrid
+    company_url: ''
+    company_logo: ''
+    date_start: 2025-11-05
+    date_end: ''
+    summary: |
+      - Conducting research on domain alignment and representation learning for clinical mass spectrometry (MALDI-TOF)
+      - Developing deep generative models (VAEs, multi-decoders) to address distribution shifts across hospitals
   - position: LLM Engineer Intern
     company_name: Repsol
     company_url: ''
@@ -111,7 +120,7 @@ work:
     date_end: 2025-02-28
     summary: |
       - Assisted in coordinating project milestones and deliverables while tracking and reporting departmental costs, supporting effective budget management and completion of objectives on time
-  - position: AI Research Engineer
+  - position: Research Assistant 
     company_name: Universidad Carlos III de Madrid
     company_url: ''
     company_logo: ''
@@ -171,7 +180,7 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Comunidad de Madrid Scholarship for Tuition Support
+  - title: MEC Scholarship
     date: '2025-11-01'
     awarder: Comunidad de Madrid
     summary: |
