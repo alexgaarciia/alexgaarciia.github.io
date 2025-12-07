@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: AI Research Engineer @UC3M
+role: AI for Microbiology @UC3M
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -43,9 +43,9 @@ profiles:
   #   url: https://orcid.org/0009-0004-6571-0297
 
 interests:
-  - Agentic AI
   - AI for Medicine
-  - Context Engineering
+  - Computational Biology
+  - Generative & Probabilistic Modeling
 
 education:
   # - area: PhD Artificial Intelligence
@@ -72,13 +72,17 @@ education:
     institution: Universidad Carlos III de Madrid
     date_start: 2025-09-01
     date_end: ''
+    summary: |
+      - Class Representative for the MSc cohort, facilitating communication between faculty and students
+      - Awarded a national government scholarship (full-tuition coverage + additional merit-based stipends)
+      - Relevant coursework: Biosignals & Bioimages, Machine Learning, Deep Learning, Biomedical Image Processing
   - area: BEng Data Science and Engineering
     institution: Universidad Carlos III de Madrid
     date_start: 2021-09-01
     date_end: 2025-07-08
     summary: |
       - Bachelor Thesis: "Generative Agent-Based Models for Simulated Interactions: A Framework for Experiment Design" (Grade 10/10, nominated for honors)
-      - Awarded 3 government scholarships recognizing academic performance
+      - Awarded 4 national government scholarships (full-tuition coverage + additional merit-based stipends)
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://github.com/alexgaarciia/Generative_Agent_Based_Modeling'
@@ -97,7 +101,8 @@ work:
     date_start: 2025-02-28
     date_end: 2025-09-01
     summary: |
-      - Helped pioneer internal adoption of AI as one of the company’s first LLM engineers, designing prompt strategies and deploying LLM agents in production environments
+      - Conducted research on large language models, including prompt-engineering strategies and context window optimization
+      - Contributed to the development of LLM-based agents for workflow automation, integrating reasoning chains and external tool use
   - position: IT&D Business Partner Intern
     company_name: Repsol 
     company_url: ''
@@ -114,7 +119,8 @@ work:
     date_end: 2025-08-31
     summary: |
       Researcher at the Telematic Engineering Department under the supervision of [Dr. José Alberto Hernández Gutiérrez](https://www.it.uc3m.es/jahgutie/index.html):
-      - Built GAN and CTGAN models to generate synthetic network traffic with 80%+ similarity to real data
+      - Designed and deployed a serverless architecture on AWS to automate email-based interaction with LLMs, enabling non-technical users to access AI tools through a familiar interface.
+      - Developed and trained deep learning models (GAN, CTGAN) to generate synthetic network traffic datasets, achieving 80%+ similarity to real data
       - Benchmarked prompt strategies across 5 LLMs, increasing problem-solving accuracy by up to 30%
       - Designed a reinforcement learning algorithm for network routing, keeping latency spikes below 14.8%
 
@@ -166,6 +172,11 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Comunidad de Madrid Scholarship for Tuition Support
+    date: '2025-11-01'
+    awarder: Comunidad de Madrid
+    summary: |
+      Awarded a fully-funded national scholarship covering the entire tuition fees of my master's degree, along with an additional stipend for academic excellence.
+  - title: Comunidad de Madrid Scholarship for Tuition Support
     date: '2025-07-09'
     awarder: Comunidad de Madrid
     summary: |
@@ -179,24 +190,24 @@ awards:
     date: '2023-08-01'
     awarder: Ministerio de Educación, Formación Profesional y Deportes
     summary: |
-      Awarded a fully-funded national scholarship covering the entire tuition fees, along with an additional stipend for academic excellence.
+      Awarded a fully-funded national scholarship covering the entire tuition fees of my bachelor's degree, along with an additional stipend for academic excellence.
   - title: MEC Scholarship
     date: '2022-08-01'
     awarder: Ministerio de Educación, Formación Profesional y Deportes
     summary: |
-      Awarded a fully-funded national scholarship covering the entire tuition fees, along with an additional stipend for academic excellence.
+      Awarded a fully-funded national scholarship covering the entire tuition fees of my bachelor's degree, along with an additional stipend for academic excellence.
   - title: MEC Scholarship
     date: '2021-08-01'
     awarder: Ministerio de Educación, Formación Profesional y Deportes
     summary: |
-      Awarded a fully-funded national scholarship covering the entire tuition fees, along with an additional stipend for academic excellence.
+      Awarded a fully-funded national scholarship covering the entire tuition fees of my bachelor's degree, along with an additional stipend for academic excellence.
 ---
 
 ## About Me
 
 Hey, I'm Alex, nice to see you're reading this! I'm passionate about artificial intelligence and its applications in health, but my curiosity sometimes diverges way too much from reality and often drifts into intersections with quantum computing.
 
-I recently graduated from Universidad Carlos III de Madrid with a BEng in Data Science and Engineering, and I am a MSc student in Machine Learning for Health. My background is in AI, data science, and (most recently) cloud technologies, and I've worked both as a researcher and in industry—as one of the first LLM engineers at my company, helping to introduce agentic workflows.
+I graduated from Universidad Carlos III de Madrid with a BEng in Data Science and Engineering, and I am a MSc student in Machine Learning for Health. My background is in AI, data science, and (most recently) cloud technologies, and I've worked both as a researcher and in industry as an LLM engineer, helping to introduce agentic workflows.
 
 I've worked on (very) random projects, ranging from developing RL algorithms for network source optimization to LLM-powered email automation. I enjoy building solutions that bridge technical innovation and real-world needs, especially if I can make this technology accessible to as many people as possible!
 
